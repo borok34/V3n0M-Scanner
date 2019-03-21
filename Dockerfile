@@ -13,7 +13,6 @@ RUN git clone https://github.com/v3n0m-Scanner/V3n0M-Scanner.git
 WORKDIR /V3n0M-Scanner
 
 RUN python3 setup.py install --user
-RUN python3 setup.py install --user
 RUN pip3 install aiohttp
 RUN pip3 install pysocks
 RUN pip3 install httplib2
